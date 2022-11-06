@@ -444,7 +444,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
     elif query.data == "start":
         buttons = [[            
             InlineKeyboardButton('🔸ɢʀᴏᴜᴘ 🔸', url='https://t.me/showtimemovierequest'),
-            InlineKeyboardButton('🔸ᴄʜᴀɴɴᴇʟ🔸', url='https://t.me/show_time_network')
+            InlineKeyboardButton('🔸ᴄʜᴀɴɴᴇʟ🔸', url='https://t.me/itz_showtime143')
             ],[ 
             InlineKeyboardButton('➕ Add Me To Your Groups ➕', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
             ],[     
