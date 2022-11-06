@@ -42,7 +42,7 @@ async def give_filter(client, message):
 async def next_page(bot, query):
     ident, req, key, offset = query.data.split("_")
     if int(req) not in [query.from_user.id, 0]:
-        return await query.answer(f"★彡Hey {query.from_user.first_name}彡★ ഇത് നിന്റെ അല്ല ....😎", show_alert=True)
+        return await query.answer(f"★彡Hey {query.from_user.first_name}彡★ This is not Fot you", show_alert=True)
     try:
         offset = int(offset)
     except:
@@ -88,8 +88,8 @@ async def next_page(bot, query):
 
     btn.insert(0,
         [
-            InlineKeyboardButton(f'📟 ᴍᴏᴠɪᴇꜱ 📟', url='https://t.me/+NQyOZEqAIiU4NWFl'),
-            InlineKeyboardButton(f'🕹️ ꜱᴇʀɪᴇꜱ 🕹️', url='https://t.me/+Dj0vyIXoJMw1MjFl'),
+            InlineKeyboardButton(f'📟 ᴍᴏᴠɪᴇꜱ 📟', url="https://t.me/itz_showtime143"),
+            InlineKeyboardButton(f'🕹️ ꜱᴇʀɪᴇꜱ 🕹️', url="https://t.me/showtimewebseries"),
         ]
     )
 
@@ -106,7 +106,7 @@ async def next_page(bot, query):
                                   callback_data="pages")]
         )
         btn.append(
-            [InlineKeyboardButton("🔮 𝙷𝙾𝚆 𝚃𝙾 𝙳𝙾𝚆𝙽𝙻𝙾𝙰𝙳 𝙼𝙾𝚅𝙸𝙴𝚂 🔮", url='https://t.me/+5YSinWXGP6U0ZjE9')]
+            [InlineKeyboardButton("🔮 𝙷𝙾𝚆 𝚃𝙾 𝙳𝙾𝚆𝙽𝙻𝙾𝙰𝙳 𝙼𝙾𝚅𝙸𝙴𝚂 🔮", url="https://t.me/show_time_network/7"]
         )
         btn.insert(0,
             [InlineKeyboardButton(f"🎪 {search} 🎪",callback_data="neosub")]
@@ -128,7 +128,7 @@ async def next_page(bot, query):
             ],
         )
         btn.append(
-            [InlineKeyboardButton("🔮 𝙷𝙾𝚆 𝚃𝙾 𝙳𝙾𝚆𝙽𝙻𝙾𝙰𝙳 𝙼𝙾𝚅𝙸𝙴𝚂 🔮", url='https://t.me/+5YSinWXGP6U0ZjE9')]
+            [InlineKeyboardButton("🔮 𝙷𝙾𝚆 𝚃𝙾 𝙳𝙾𝚆𝙽𝙻𝙾𝙰𝙳 𝙼𝙾𝚅𝙸𝙴𝚂 🔮", url="https://t.me/show_time_network/7"]
         )
         btn.insert(0,
             [InlineKeyboardButton(f"🎪 {search} 🎪",callback_data="neosub")]
@@ -146,7 +146,7 @@ async def next_page(bot, query):
 async def advantage_spoll_choker(bot, query):
     _, user, movie_ = query.data.split('#')
     if int(user) != 0 and query.from_user.id != int(user):
-        return await query.answer("★Hey Bro നിനക്ക്‌ മൂവീസ് വേണമെങ്കിൽ നീ തന്നെ റിക്വസ്റ്റ് ചെയ്യണം🤙🏻\n\nʀᴇǫᴜᴇsᴛ ʏᴏᴜʀ ᴏᴡɴ 💕", show_alert=True)
+        return await query.answer("★ nʀᴇǫᴜᴇsᴛ ʏᴏᴜʀ ᴏᴡɴ 💕", show_alert=True)
     if movie_ == "close_spellcheck":
         return await query.message.delete()
     movies = SPELL_CHECK.get(query.message.reply_to_message.id)
@@ -164,7 +164,7 @@ async def advantage_spoll_choker(bot, query):
             btn = [[
             InlineKeyboardButton('⍟ 𝗥𝗘𝗔𝗦𝗢𝗡𝗦 ⍟', callback_data='reqst11')
         ]]        
-            k=await query.message.edit('<b>✯ നിങ്ങൾ ചോദിച്ച മൂവി റിലീസ് ആയിട്ടുണ്ടോ..? </b>\n\n✯ 𝗜𝗳 𝗶𝘁 𝗶𝘀 , 𝗪𝗲 𝗪𝗶𝗹𝗹 𝗨𝗽𝗹𝗼𝗮𝗱 𝗜𝘁⚡️\n\n<b>📯ɴʙ: Cʟɪᴄᴋ Bᴇʟᴏᴡ Rᴇᴀsᴏɴs Bᴜᴛᴛᴏɴ</b>', reply_markup=InlineKeyboardMarkup(btn))    
+            k=await query.message.edit("✯ 𝗜𝗳 𝗶𝘁 𝗶𝘀 , 𝗪𝗲 𝗪𝗶𝗹𝗹 𝗨𝗽𝗹𝗼𝗮𝗱 𝗜𝘁⚡️\n\n<b>📯ɴʙ: Cʟɪᴄᴋ Bᴇʟᴏᴡ Rᴇᴀsᴏɴs Bᴜᴛᴛᴏɴ</b>', reply_markup=InlineKeyboardMarkup(btn))    
             await asyncio.sleep(60)
             await k.delete()
 
@@ -443,16 +443,16 @@ async def cb_handler(client: Client, query: CallbackQuery):
         await query.answer()
     elif query.data == "start":
         buttons = [[            
-            InlineKeyboardButton('🔸ɢʀᴏᴜᴘ 1🔸', url='https://t.me/+3SSAvOkxW_hjMDJl'),
-            InlineKeyboardButton('🔸ɢʀᴏᴜᴘ 2🔸', url='https://t.me/+SL0GhMb0mjoxYjRl')
+            InlineKeyboardButton('🔸ɢʀᴏᴜᴘ 🔸', url='https://t.me/showtimemovierequest'),
+            InlineKeyboardButton('🔸ᴄʜᴀɴɴᴇʟ🔸', url='https://t.me/show_time_network')
             ],[ 
             InlineKeyboardButton('➕ Add Me To Your Groups ➕', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
             ],[     
             InlineKeyboardButton('❗️ʜᴇʟᴘ❗️', callback_data='help'),
             InlineKeyboardButton('❕ᴀʙᴏᴜᴛ❕', callback_data='about')
             ],[
-            InlineKeyboardButton('🔗 ᴍᴀɪɴ ᴄʜᴀɴɴᴇʟ 🔗', url=f'https://t.me/+MKICQFbj5nswMzI1')
-        ]]
+            InlineKeyboardButton('🔗 ᴍᴀɪɴ ᴄʜᴀɴɴᴇʟ 🔗', url=f'https://t.me/show_time_network')
+        ]] 
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
             text=script.START_TXT.format(query.from_user.mention, temp.U_NAME, temp.B_NAME),
@@ -479,7 +479,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         )
     elif query.data == "about":
         buttons = [[
-            InlineKeyboardButton('🤖 Updates', url='https://t.me/+SL0GhMb0mjoxYjRl'),
+            InlineKeyboardButton('🤖 Updates', url='https://t.me/show_time_network'),
             InlineKeyboardButton('♥️ Source', callback_data='source')
         ], [
             InlineKeyboardButton('🏠 Home', callback_data='start'),
@@ -724,8 +724,8 @@ async def auto_filter(client, msg, spoll=False):
 
     btn.insert(0,
         [
-            InlineKeyboardButton(f'📟 ᴍᴏᴠɪᴇꜱ 📟', url='https://t.me/+NQyOZEqAIiU4NWFl'),
-            InlineKeyboardButton(f'🕹️ ꜱᴇʀɪᴇꜱ 🕹️', url='https://t.me/+Dj0vyIXoJMw1MjFl'),
+            InlineKeyboardButton(f'📟 ᴍᴏᴠɪᴇꜱ 📟', url="https://t.me/itz_showtime143"),
+            InlineKeyboardButton(f'🕹️ ꜱᴇʀɪᴇꜱ 🕹️', url="https://t.me/showtimewebseries"),
         ]
     )
 
@@ -738,14 +738,14 @@ async def auto_filter(client, msg, spoll=False):
              InlineKeyboardButton(text="ɴᴇxᴛ 🌚", callback_data=f"next_{req}_{key}_{offset}")]
         )
         btn.append(
-            [InlineKeyboardButton("🔮 𝙷𝙾𝚆 𝚃𝙾 𝙳𝙾𝚆𝙽𝙻𝙾𝙰𝙳 𝙼𝙾𝚅𝙸𝙴𝚂 🔮", url='https://t.me/+5YSinWXGP6U0ZjE9')]
+            [InlineKeyboardButton("🔮 𝙷𝙾𝚆 𝚃𝙾 𝙳𝙾𝚆𝙽𝙻𝙾𝙰𝙳 𝙼𝙾𝚅𝙸𝙴𝚂 🔮", url="https://t.me/show_time_network/7"]
         )
         btn.insert(0,
             [InlineKeyboardButton(f"🎪 {search} 🎪",callback_data="neosub")]
         )   
     else:
         btn.append(
-             [InlineKeyboardButton("🔮 𝙷𝙾𝚆 𝚃𝙾 𝙳𝙾𝚆𝙽𝙻𝙾𝙰𝙳 𝙼𝙾𝚅𝙸𝙴𝚂 🔮", url='https://t.me/+5YSinWXGP6U0ZjE9')]
+            [InlineKeyboardButton("🔮 𝙷𝙾𝚆 𝚃𝙾 𝙳𝙾𝚆𝙽𝙻𝙾𝙰𝙳 𝙼𝙾𝚅𝙸𝙴𝚂 🔮", url="https://t.me/show_time_network/7"]
         )
         btn.insert(0,
             [InlineKeyboardButton(f"🎪 {search} 🎪",callback_data="neosub")]
@@ -862,7 +862,7 @@ async def advantage_spell_chok(msg):
     btn = [[
         InlineKeyboardButton(text=movie.strip(), callback_data=f"spolling#{user}#{k}",)]for k, movie in enumerate(movielist)]
     btn.append([InlineKeyboardButton(text="✘ ᴍᴜꜱᴛ ᴄʟᴏꜱᴇ ✘", callback_data=f'spolling#{user}#close_spellcheck')])
-    k=await msg.reply("<b>✯ നിങ്ങൾ ഉദ്ദേശിച്ച മൂവി താഴെ കാണുന്ന വല്ലതും ആണ് എങ്കിൽ.അതിൽ ക്ലിക്ക് ചെയ്യുക</b>\n\n<b>✯ ɪ ᴄᴏᴜʟᴅɴ'ᴛ ꜰɪɴᴅ ᴀɴʏᴛʜɪɴɢ ʀᴇʟᴀᴛᴇᴅ ᴛᴏ ᴛʜᴀᴛ ᴅɪᴅ ʏᴏᴜ ᴍᴇᴀɴ ᴀɴʏ ᴏɴᴇ ᴏꜰ ᴛʜᴇꜱᴇ?\n\n📯 ɴʙ:ᴄʟɪᴄᴋ ᴛʜᴇ ᴍᴏᴠɪᴇ ɴᴀᴍᴇ ᴏɴʟʏ ᴅᴏɴᴛ ᴜꜱᴇ ʏᴇᴀʀ ʙᴜᴛᴛᴏɴ </b>",
+    k=await msg.reply("<b>✯ ɪ ᴄᴏᴜʟᴅɴ'ᴛ ꜰɪɴᴅ ᴀɴʏᴛʜɪɴɢ ʀᴇʟᴀᴛᴇᴅ ᴛᴏ ᴛʜᴀᴛ ᴅɪᴅ ʏᴏᴜ ᴍᴇᴀɴ ᴀɴʏ ᴏɴᴇ ᴏꜰ ᴛʜᴇꜱᴇ?\n\n📯 ɴʙ:ᴄʟɪᴄᴋ ᴛʜᴇ ᴍᴏᴠɪᴇ ɴᴀᴍᴇ ᴏɴʟʏ ᴅᴏɴᴛ ᴜꜱᴇ ʏᴇᴀʀ ʙᴜᴛᴛᴏɴ </b>",
                       reply_markup=InlineKeyboardMarkup(btn))
     await asyncio.sleep(60)
     await k.delete()
