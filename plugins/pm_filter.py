@@ -164,7 +164,7 @@ async def advantage_spoll_choker(bot, query):
             btn = [[
             InlineKeyboardButton('⍟ 𝗥𝗘𝗔𝗦𝗢𝗡𝗦 ⍟', callback_data='reqst11')
         ]]        
-            k=await query.message.edit("✯ 𝗜𝗳 𝗶𝘁 𝗶𝘀 , 𝗪𝗲 𝗪𝗶𝗹𝗹 𝗨𝗽𝗹𝗼𝗮𝗱 𝗜𝘁⚡️\n\n<b>📯ɴʙ: Cʟɪᴄᴋ Bᴇʟᴏᴡ Rᴇᴀsᴏɴs Bᴜᴛᴛᴏɴ</b>', reply_markup=InlineKeyboardMarkup(btn))    
+            k=await query.message.edit("✯ 𝗜𝗳 𝗶𝘁 𝗶𝘀 , 𝗪𝗲 𝗪𝗶𝗹𝗹 𝗨𝗽𝗹𝗼𝗮𝗱 𝗜𝘁⚡️\n\n<b>📯ɴʙ: Cʟɪᴄᴋ Bᴇʟᴏᴡ Rᴇᴀsᴏɴs Bᴜᴛᴛᴏɴ</b>", reply_markup=InlineKeyboardMarkup(btn))    
             await asyncio.sleep(60)
             await k.delete()
 
