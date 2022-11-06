@@ -43,7 +43,7 @@ async def start(client, message):
     if len(message.command) != 2:
         buttons = [[            
             InlineKeyboardButton('🔸ɢʀᴏᴜᴘ 🔸', url='https://t.me/showtimemovierequest'),
-            InlineKeyboardButton('🔸ᴄʜᴀɴɴᴇʟ🔸', url='https://t.me/show_time_network')
+            InlineKeyboardButton('🔸ᴄʜᴀɴɴᴇʟ🔸', url='https://t.me/itz_showtime143')
             ],[ 
             InlineKeyboardButton('➕ Add Me To Your Groups ➕', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
             ],[     
@@ -91,7 +91,7 @@ async def start(client, message):
     if len(message.command) == 2 and message.command[1] in ["subscribe", "error", "okay", "help"]:
         buttons = [[            
             InlineKeyboardButton('🔸ɢʀᴏᴜᴘ 🔸', url='https://t.me/showtimemovierequest'),
-            InlineKeyboardButton('🔸ᴄʜᴀɴɴᴇʟ🔸', url='https://t.me/show_time_network')
+            InlineKeyboardButton('🔸ᴄʜᴀɴɴᴇʟ🔸', url='https://t.me/itz_showtime143')
             ],[ 
             InlineKeyboardButton('➕ Add Me To Your Groups ➕', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
             ],[     
@@ -245,7 +245,7 @@ async def start(client, message):
     if f_caption is None:
         f_caption = f"{files.file_name}"
     buttons = [[
-            InlineKeyboardButton('☞𝐋𝐀𝐓𝐄𝐒𝐓 𝐌𝐎𝐕𝐈𝐄𝐒☜', url='https://t.me/+SL0GhMb0mjoxYjRl')
+            InlineKeyboardButton('☞𝐋𝐀𝐓𝐄𝐒𝐓 𝐌𝐎𝐕𝐈𝐄𝐒☜', url='https://t.me/itz_showtime143')
         ]]
     await client.send_cached_media(
         chat_id=message.from_user.id,
