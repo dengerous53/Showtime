@@ -38,11 +38,11 @@ async def save_group(bot, message):
             return
         buttons = [[
             InlineKeyboardButton('ʜᴇʟᴩ', url=f"https://t.me/{temp.U_NAME}?start=help"),
-            InlineKeyboardButton('ʟᴀᴛᴇꜱᴛ ᴜᴩᴅᴀᴛᴇꜱ', url='https://t.me/+SL0GhMb0mjoxYjRl')
+            InlineKeyboardButton('ᴜᴩᴅᴀᴛᴇꜱ', url='https://t.me/showtimemovierequest')
         ]]
         reply_markup=InlineKeyboardMarkup(buttons)
         await message.reply_text(
-            text=f"<b>Thankyou For Adding Me In {message.chat.title} ❣️\n\n(എന്നെ ഗ്രൂപ്പിൽ അഡ്മിൻ ആക്കാൻ മറക്കല്ലേ......‼️)\n\n𝙹𝙾𝙸𝙽 𝚄𝙿𝙳𝙰𝚃𝙴 𝙲𝙷𝙰𝙽𝙽𝙴𝙻.</b>",
+            text=f"<b>Thankyou For Adding Me In {message.chat.title} ❣️\n\n𝙹𝙾𝙸𝙽 𝚄𝙿𝙳𝙰𝚃𝙴 𝙲𝙷𝙰𝙽𝙽𝙴𝙻.</b>",
             reply_markup=reply_markup)
     else:
         settings = await get_settings(message.chat.id)
