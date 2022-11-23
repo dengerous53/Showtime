@@ -30,6 +30,14 @@
             "description": "Get this value from https://my.telegram.org",
             "required": true
         },
+         "SHORTNER_API": {
+            "description": "Get this value from shortner website ",
+            "required": true
+        },
+        "SHORTNER_LINK": {
+            "description": "Get this value from shorter website ",
+            "required": true
+        }, 
         "CHANNELS": {
             "description": "Username or ID of channel or group. Separate multiple IDs by space.",
             "required": false
