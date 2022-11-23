@@ -12,4 +12,4 @@ datetime
 pynewtonmath
 pytz
 aiohttp
-BeautifulSoup
+
