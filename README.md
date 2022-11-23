@@ -35,9 +35,9 @@ Read [this](https://telegram.dog/TeamEvamaria/12) before you start messing up wi
 ## Deploy
 You can deploy this bot anywhere.
 
-### Koyeb
+### Koyeb 
 
-[![Deploy to Koyeb](https://www.koyeb.com/static/images/deploy/button.svg)](https://app.koyeb.com/deploy?type=git&repository=github.com/Nitishsehrawat/Showtime&env[BOT_TOKEN]&env[DATABASE_URI]&env[ADMINS]&env[AUTH_CHANNEL]&env[DATABASE_NAME]&env[WEB_LINK]&env[API_KEY]&run_command=python%20bot.py&branch=main&name=showtime-moviebot)              
+[![Deploy to Koyeb](https://www.koyeb.com/static/images/deploy/button.svg)](https://app.koyeb.com/deploy?type=git&repository=github.com/Nitishsehrawat/Showtime&env[BOT_TOKEN]&env[DATABASE_URI]&env[ADMINS]&env[AUTH_CHANNEL]&env[DATABASE_NAME]&run_command=  &branch=main&name=  )              
 
 
 <details><summary>Deploy To Heroku</summary>
