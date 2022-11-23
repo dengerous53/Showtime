@@ -37,9 +37,7 @@ You can deploy this bot anywhere.
 
 ### Koyeb
 
-[![Deploy to Koyeb](https://www.koyeb.com/static/images/deploy/button.svg)]
-
-(https://app.koyeb.com/deploy?type=git&repository=github.com/Nitishsehrawat/Showtime&env[BOT_TOKEN]=my-value-1&run_command=python bot.py&branch=main&name=showtime-moviebot)              
+[![Deploy to Koyeb](https://www.koyeb.com/static/images/deploy/button.svg)](https://app.koyeb.com/deploy?type=git&repository=github.com/Nitishsehrawat/Showtime&env[BOT_TOKEN]=my-value-1&run_command=python bot.py&branch=main&name=showtime-moviebot)              
 
 
 <details><summary>Deploy To Heroku</summary>
