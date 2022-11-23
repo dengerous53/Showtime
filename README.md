@@ -40,7 +40,7 @@ You can deploy this bot anywhere.
 <details><summary>Deploy To Heroku</summary>
 <p>
 <br>
-<a href="https://heroku.com/deploy?template=https://github.com/Mr-BUG-TG/Lisa">
+<a href="https://heroku.com/deploy?template=https://github.com/Nitishsehrawat/Showtime">
   <img src="https://www.herokucdn.com/deploy/button.svg" alt="Deploy">
 </a>
 </p>
