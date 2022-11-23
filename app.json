@@ -30,7 +30,7 @@
             "description": "Get this value from https://my.telegram.org",
             "required": true
         },
-         "SHORTNER_API": {
+        "SHORTNER_API": {
             "description": "Get this value from shortner website ",
             "required": true
         },
