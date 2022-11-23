@@ -5,7 +5,7 @@
 - [x] IMDB
 - [x] Admin Commands
 - [x] Broadcast
-- [x] Index
+- [x] Index 
 - [x] IMDB search
 - [x] Inline Search
 - [x] Random pics
