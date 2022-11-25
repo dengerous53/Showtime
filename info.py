@@ -18,7 +18,7 @@ BOT_TOKEN = environ('BOT_TOKEN', '5375286492:AAENZ0XB18lh8RdFlh2CBNem5BQ0ucwLLfU
 
 # Bot settings
 CACHE_TIME = int(environ.get('CACHE_TIME', 300))
-USE_CAPTION_FILTER = bool(environ.get('USE_CAPTION_FILTER', False))
+USE_CAPTION_FILTER = False 
 PICS = (environ.get('PICS', 'https://te.legra.ph/file/d4b4d903dcdf2be77871b.jpg')).split()
 
 # Admins, Channels & Users
@@ -33,7 +33,7 @@ AUTH_GROUPS = [int(ch) for ch in auth_grp.split()] if auth_grp else None
 
 
 # MongoDB information
-DATABASE_URI = environ.get("DATABASE_URI", "mongodb+srv://nitish:nitish876@cluster0.3dspllq.mongodb.net/?retryWrites=true&w=majority")
+DATABASE_URI = "mongodb+srv://nitish:nitish876@cluster0.3dspllq.mongodb.net/?retryWrites=true&w=majority"
 DATABASE_NAME = "noseen"
 COLLECTION_NAME = "Telegram_files"
 
