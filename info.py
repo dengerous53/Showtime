@@ -18,7 +18,7 @@ BOT_TOKEN = "5375286492:AAENZ0XB18lh8RdFlh2CBNem5BQ0ucwLLfU"
 # Bot settings
 CACHE_TIME = int(300)
 USE_CAPTION_FILTER = False 
-PICS = "https://te.legra.ph/file/d4b4d903dcdf2be77871b.jpg"
+PICS = ["https://graph.org/file/8772d71746e2fdca86ae2.jpg", "https://graph.org/file/96b93bc4465d3e245baf5.jpg"]
 
 # Admins, Channels & Users
 ADMINS = [1314385986, 5797297120]
