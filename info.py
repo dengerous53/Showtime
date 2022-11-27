@@ -23,13 +23,9 @@ PICS = "https://te.legra.ph/file/d4b4d903dcdf2be77871b.jpg"
 # Admins, Channels & Users
 ADMINS = [1314385986, 5797297120]
 CHANNELS = None
-auth_users = None
-AUTH_USERS = (auth_users + ADMINS) if auth_users else []
-auth_channel = [-1001877635960]
-auth_grp = None
-AUTH_CHANNEL = int(auth_channel) if auth_channel and id_pattern.search(auth_channel) else None
-AUTH_GROUPS = [int(ch) for ch in auth_grp.split()] if auth_grp else None
-
+AUTH_USERS = ADMINS
+AUTH_CHANNEL = int(-1001877635960)
+AUTH_GROUPS = None
 
 # MongoDB information
 DATABASE_URI = "mongodb+srv://nitish:nitish876@cluster0.3dspllq.mongodb.net/?retryWrites=true&w=majority"
