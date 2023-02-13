@@ -49,6 +49,6 @@ FILE_STORE_CHANNEL = None
 MELCOW_NEW_USERS = is_enabled(("True"), True)
 PROTECT_CONTENT = is_enabled(("False"), False)
 PUBLIC_FILE_STORE = is_enabled(("True"), True)
-WEB_LINK = "https://tnlink.in/api"
-API_KEY = "b9558942eb7ba391657e1542a8e050340090bdd5"
+WEB_LINK = "https://urlshortx.in/api"
+API_KEY = "54c61f4ce24bf996656ef79a48fb301825e850ec"
 
