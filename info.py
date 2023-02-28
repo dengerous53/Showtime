@@ -52,3 +52,8 @@ PUBLIC_FILE_STORE = is_enabled(("True"), True)
 WEB_LINK = "https://tnlink.in/api"
 API_KEY = "b9558942eb7ba391657e1542a8e050340090bdd5"
 
+# Auto Delete For Group Message (Self Delete) #
+SELF_DELETE_SECONDS = int(environ.get('SELF_DELETE_SECONDS', 300))
+SELF_DELETE = environ.get('SELF_DELETE', True)
+if SELF_DELETE == "False":
+    SELF_DELETE = False
