@@ -24,7 +24,7 @@ PICS = ["https://graph.org/file/8772d71746e2fdca86ae2.jpg", "https://graph.org/f
 ADMINS = [1314385986, 5797297120]
 CHANNELS = None
 AUTH_USERS = ADMINS
-AUTH_CHANNEL = int(-1001652975277 1650961338)
+AUTH_CHANNEL = int(-1001652975277, 1650961338)
 AUTH_GROUPS = None
 
 # MongoDB information
