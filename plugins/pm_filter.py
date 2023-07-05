@@ -90,6 +90,7 @@ async def next_page(bot, query):
         [
             InlineKeyboardButton(f'📟 ᴍᴏᴠɪᴇꜱ 📟', url="https://t.me/itz_showtime143"),
             InlineKeyboardButton(f'🕹️ ꜱᴇʀɪᴇꜱ 🕹️', url="https://t.me/showtimewebseries"),
+            InlineKeyboardButton(f'🤑Money🤑', url="https://youronlinerevenue.siterubix.com"),
         ]
     )
 
