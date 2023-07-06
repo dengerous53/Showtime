@@ -6,10 +6,7 @@ marshmallow==3.14.1
 umongo==3.0.1
 requests
 bs4
-cinemagoer
-heroku3
+git+https://github.com/Joelkb/cinemagoer
 datetime
-pynewtonmath
 pytz
 aiohttp
-
